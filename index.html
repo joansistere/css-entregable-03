@@ -43,59 +43,82 @@
       </div>
     </header>
 
-    <main>
-      <img
-        src="./assets/img/dayatgallery.jpg"
-        alt="Day at Gallery"
-        class="px-4 mt-20"
-      />
+    <main class=" md:px-9">
+      <section
+        class="flex flex-col mt-20 md:flex-row-reverse md:mt-28 md:mb-2.5"
+      >
+        <img
+          src="./assets/img/dayatgallery.jpg"
+          alt="Day at Gallery"
+          class="px-4 md:w-3/5"
+        />
+        <article class="flex flex-col">
+          <h2
+            class="font-titulos text-6xl font-black uppercase py-4 px-4 md:text-7xl"
+          >
+            Your day
+            <span class="block">
+              at the gallery
+            </span>
+          </h2>
+          <p class="font-serif px-4 py-4 text-[18px] md:text-2xl">
+            Wander through our distinct collections and find new insights about
+            our artists. Dive into the details of their creative process.
+          </p>
+        </article>
+      </section>
 
-      <h2 class="font-titulos text-6xl font-black uppercase py-4 px-4">
-        Your day
-        <span class="block">
-          at the gallery
-        </span>
-      </h2>
-      <p class="font-serif px-4 py-4 text-[18px]">
-        Wander through our distinct collections and find new insights about our
-        artists. Dive into the details of their creative process.
-      </p>
+      <section
+        class="md:grid md:grid-cols-[3fr_2fr] md:grid-rows-[1fr_1fr] md:gap-2.5"
+      >
+        <img
+          src="./assets/img/foto1.jpg"
+          alt="Bank"
+          class="px-4 py-2 md:p-0 md:row-span-2 md:h-full md:object-cover md:w-full"
+        />
 
-      <img src="./assets/img/foto1.jpg" alt="Bank" class="px-4 py-2" />
+        <img
+          src="./assets/img/foto2.jpg"
+          alt="Salon"
+          class="px-4 py-2 md:p-0 md:h-full md:object-cover"
+        />
 
-      <img src="./assets/img/foto2.jpg" alt="Salon" class="px-4 py-2" />
-
-      <article class="bg-secundary mx-4 px-4 py-4">
-        <h2
-          class="font-titulos text-6xl font-black uppercase px-4 pt-8 pb-4 text-background"
+        <article
+          class="bg-secundary mx-4 px-4 py-4 md:m-0 md:col-start-2 md:flex md:flex-col md:justify-center md:items-center"
         >
-          Come & be inspired
-        </h2>
+          <h2
+            class="font-titulos text-6xl font-black uppercase px-4 pt-8 pb-4 text-background md:text-7xl"
+          >
+            Come & be inspired
+          </h2>
 
-        <p class="font-serif text-[18px] px-4 text-background">
-          We’re excited to welcome you to our gallery and see how our
-          collections influence you.
-        </p>
-      </article>
+          <p class="font-serif text-[18px] px-4 text-background md:text-2xl">
+            We’re excited to welcome you to our gallery and see how our
+            collections influence you.
+          </p>
+        </article>
+      </section>
     </main>
 
-    <footer class="mt-20 bg-secundary text-background px-8 py-12 text-2xl">
-      s
-      <h2 class="font-titulos  uppercase">
-        Modern
-        <span class="block">
-          art gallery
-        </span>
-      </h2>
-      <p class="font-serif text-[18px] py-8">
-        The Modern Art Gallery is free to all visitors and open seven days a
-        week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
-      </p>
-
-      <div class="flex gap-4">
-        <img src="./assets/img/facebok.svg" alt="Facebok" />
-        <img src="./assets/img/insta.svg" alt="Instagram" />
-        <img src="./assets/img/twitter.svg" alt="Twitter" />
+    <footer
+      class="mt-20 bg-secundary text-background px-8 py-12 text-2xl md:mt-28 md:flex md:justify-between md:items-center"
+    >
+      <article class="md:flex md:pb-5">
+        <h2 class="font-titulos uppercase md:px-10">
+          Modern
+          <span class="block">
+            art gallery
+          </span>
+        </h2>
+        <p class="font-serif text-[18px] py-8 md:w-88 md:p-0 md:pl-16">
+          The Modern Art Gallery is free to all visitors and open seven days a
+          week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+        </p>
+      </article>
+      <div class="flex gap-4 md:justify-end">
+        <img src="./assets/img/facebok.svg" alt="Facebok" class="md:w-5" />
+        <img src="./assets/img/insta.svg" alt="Instagram" class="md:w-5" />
+        <img src="./assets/img/twitter.svg" alt="Twitter" class="md:w-5" />
       </div>
     </footer>
   </body>
