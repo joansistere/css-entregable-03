@@ -9,32 +9,38 @@
   </head>
   <body>
     <header>
-      <img
-        src="./assets/img/header-md.jpg"
-        alt="Modern art Gallery"
-        class="min-w-dvw h-60 object-cover"
-      />
-      <h1 class="font-titulos text-6xl font-black uppercase py-4 px-4">
-        Modern
-        <span class="block">Art Gallery</span>
-      </h1>
-      <p class="font-serif px-4 py-4 text-[18px]">
-        The arts in the collection of the Modern Art Gallery all started from a
-        spark of inspiration. Will these pieces inspire you? Visit us and find
-        out.
-      </p>
-      <button class="px-4 py-4 flex">
-        <a
-          href="location.html"
-          class="uppercase px-8 py-4 bg-secundary text-background font-titulos tracking-[3.64px] text-xl"
-          >Our Location</a
-        >
+      <div class="flex flex-col md:flex-row">
         <img
-          src="./assets/img/flecha-button.svg"
-          alt="Flecha"
-          class="bg-accent px-4"
+          src="./assets/img/header-md.jpg"
+          alt="Modern art Gallery"
+          class="max-w-dvw h-60 object-cover md:w-1/2 md:h-full"
         />
-      </button>
+        <article class="md:mt-36 md:-ml-20 md:w-sm">
+          <h1
+            class="font-titulos text-6xl font-black uppercase py-4 px-4 md:text-7xl"
+          >
+            Modern
+            <span class="block">Art Gallery</span>
+          </h1>
+          <p class="font-serif px-4 py-4 text-[18px] md:text-2xl md:py-8">
+            The arts in the collection of the Modern Art Gallery all started
+            from a spark of inspiration. Will these pieces inspire you? Visit us
+            and find out.
+          </p>
+          <button class="px-4 py-4 flex">
+            <a
+              href="location.html"
+              class="uppercase px-8 py-4 md:py-8 bg-secundary text-background font-titulos tracking-[3.64px] text-xl md:text-2xl"
+              >Our Location</a
+            >
+            <img
+              src="./assets/img/flecha-button.svg"
+              alt="Flecha"
+              class="bg-accent px-4 md:px-8"
+            />
+          </button>
+        </article>
+      </div>
     </header>
 
     <main>
@@ -74,6 +80,7 @@
     </main>
 
     <footer class="mt-20 bg-secundary text-background px-8 py-12 text-2xl">
+      s
       <h2 class="font-titulos  uppercase">
         Modern
         <span class="block">
