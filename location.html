@@ -7,5 +7,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Art Gallery</title>
   </head>
-  <body></body>
+  <body>
+    <header class="relative min-h-[630px]">
+      <section class="flex">
+        <img
+          src="./assets/img/maps-sm.png"
+          alt="Localización"
+          class="absolute -z-2 grayscale sm:origin-center"
+        />
+        <button class="flex group hover:cursor-pointer">
+          <a
+            href="index.html"
+            class="bg-accent px-4 md:px-8 group-hover:bg-secundary flex items-center"
+          >
+            <img src="./assets/img/flecha-back.svg" alt="Flecha" />
+          </a>
+          <a
+            href="index.html"
+            class="uppercase px-8 py-4 md:py-8 bg-secundary text-background font-titulos tracking-[3.64px] text-xl md:text-2xl group-hover:bg-accent"
+            >Back to home</a
+          >
+        </button>
+      </section>
+    </header>
+
+    <main>
+      <section class="bg-black px-4 py-14">
+        <h2 class="font-titulos text-6xl font-black uppercase text-white">
+          OUR LOCATION
+        </h2>
+        <article class="text-white py-14">
+          <h4 class="font-titulos text-2xl text-accent uppercase mb-5">
+            99 King Street
+          </h4>
+          <h6 class="font-serif text-[18px]">
+            Newport
+          </h6>
+          <h6 class="font-serif text-[18px]">
+            Rl 02840
+          </h6>
+          <h6 class="font-serif text-[18px] mb-5">
+            United States of America
+          </h6>
+          <p class="font-serif text-[18px]">
+            Our newly opened gallery is located near the Edward King House on 99
+            King Street, the Modern Art Gallery is free to all visitors and open
+            seven days a week from 8am to 9pm.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="bg-accent  px-12 py-12 flex flex-col gap-y-9.5">
+      <h2 class="font-titulos text-2xl font-black uppercase">
+        MODERN
+        <span class="block">ART GALLERY</span>
+      </h2>
+      <p class="font-serif text-[18px]">
+        The Modern Art Gallery is free to all visitors and open seven days a
+        week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+      </p>
+      <div class="flex gap-x-8">
+        <img src="./assets/img/facebok.svg" alt="Facebook" class="w-5" />
+        <img src="./assets/img/insta.svg" alt="Instagram" class="w-5" />
+        <img src="./assets/img/twitter.svg" alt="Twitter" class="w-5" />
+      </div>
+    </footer>
+  </body>
 </html>
